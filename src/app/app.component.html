@@ -14,7 +14,8 @@
     <a class="nav-link" routerLink="login" routerLinkActive="active" *ngIf="!auth.loggedIn">Se connecter</a>
 
   -->
-        <a class="nav-link" (click)="logout()" href="#" *ngIf="auth.loggedIn">Logout</a>
+  <!--- *ngIf="auth.loggedIn" -->
+        <a class="nav-link" (click)="logout()" href="#" >Logout</a>
       </li>
     </ul>
   </nav>
