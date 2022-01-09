@@ -4,7 +4,7 @@
  * Module dependencies.
  */
 
-var app = require('../server.js');
+var app = require('../app/server.js');
 var debug = require('debug')('angular-observable:server');
 var http = require('http');
 
